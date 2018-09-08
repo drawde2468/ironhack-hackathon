@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { BottomComponent } from './bottom/bottom.component';
+import { MiddleComponent } from './middle/middle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarouselComponent,
-    BottomComponent
+    BottomComponent,
+    MiddleComponent
   ],
   imports: [
     BrowserModule
