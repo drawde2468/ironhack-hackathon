@@ -1,0 +1,42 @@
+#section1, #section2, #section3 {
+  height: 100vh;
+  scroll-behavior: smooth;
+  /* 768px; */
+}
+
+.smooth-scroll {
+  z-index:0; 
+  -webkit-transform: translateZ( 0 );
+  transform: translateZ( 0 );
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+#section1 {
+  background-image: url(/src/assets/images/margaritaDrink.png);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  text-align: center;
+  /* display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center; */
+}
+
+#section1 h3 {
+  font: 30px;
+  color: #fff;
+}
+
+#section1 h2 {
+  font: 50px;
+  color: #fff;
+}
+
+#section1 b {
+ color: #3CDBEE;
+}
