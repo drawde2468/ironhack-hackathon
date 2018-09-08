@@ -5,6 +5,10 @@
     font-weight: bold;
   }  */
 
+p, h2{
+    font-family: CircularStd;
+}
+
 .myButton {
 	background-color:#3CDBEE;
 	-moz-border-radius:28px;
@@ -14,11 +18,31 @@
 	display:inline-block;
 	cursor:pointer;
 	color:#000000;
-	font-family:Arial;
+	font-family: CircularStd;
 	font-size:20px;
 	font-weight:bold;
-	padding:16px 76px;
+	padding:16px 120px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #3CDBEE;
+    text-shadow:0px 1px 0px #3CDBEE;
+    margin-top: 10px;
 }
 
+#title{
+    margin: 40px 0px;
+}
+
+#img-container{
+    color: #FA8F49 ;
+}
+
+.mid-text{
+    font-size: 30px;
+}
+
+p{
+    color: #FA8F49 ;
+}
+
+img{
+    padding-bottom: 20px;
+}
